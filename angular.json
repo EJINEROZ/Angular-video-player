@@ -27,6 +27,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@videogular/ngx-videogular/fonts/videogular.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -103,5 +104,8 @@
       }
     }
   },
-  "defaultProject": "angular-videoplayer-app"
+  "defaultProject": "angular-videoplayer-app",
+  "cli": {
+    "analytics": false
+  }
 }
